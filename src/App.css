@@ -1,0 +1,23 @@
+.ownBlock {
+    display: flex;
+    background-color: #f5f3f3;
+    padding-bottom: 1.5%;
+}
+
+.ownLeftPartBlock {
+    background-color: white;
+    border-bottom: 2px solid grey;
+}
+
+.ownLeftPartBlock h2 {
+    color: cornflowerblue;
+    font-weight: 400;
+    margin-left: 5%;
+}
+
+.ownRightPartBlock{
+    padding: 0;
+    width: 70vw;
+    border-bottom: 2px solid grey;
+    /*border-left: 1px solid grey;*/
+}

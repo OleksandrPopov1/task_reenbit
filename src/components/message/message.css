@@ -1,0 +1,43 @@
+.messageBlock {
+    display: flex;
+}
+
+.messageBlock > div {
+    /*width: 80%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+.messageBlock .messageValue{
+    padding: 10%;
+    border-radius: 25px;
+}
+
+.meMessage > div {
+    order: 999;
+    margin-left: auto;
+}
+
+.meMessage .messageValue {
+    width: auto;
+    background-color: #e1dede;
+}
+
+.interlocutorMessage .messageValue {
+    width: auto;
+    background-color: #40454b;
+    color: white;
+}
+
+/*.interlocutorMessage > div {*/
+/*    text-align: left;*/
+/*}*/
+
+.messageValue {
+
+}
+
+.messageDate{
+    font-size: 10px;
+    color: grey;
+}

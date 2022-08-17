@@ -1,7 +1,10 @@
 import {FC, useEffect} from "react";
+
 import {useAppDispatch, useAppSelector} from "../../hooks";
 import {staticChat} from "../../constants";
 import {chatAction} from "../../redux";
+import {DescriptionChat} from "../descriptionChat/DescriptionChat";
+import './chats.css';
 
 const Chats: FC = () => {
 
@@ -12,18 +15,26 @@ const Chats: FC = () => {
         if (!localStorage.getItem('chats')) {
             localStorage.setItem('chats', JSON.stringify(staticChat));
         }
-        dispatch(chatAction.setChat(JSON.parse(localStorage.getItem('chats') || '{}')));
+        dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') || '{}')));
+
 
     }, [dispatch]);
 
-    useEffect(() => {
-        console.log(chats.chats.map(value => value.message.map(value1 => console.log(value1))))
-    }, [chats])
-
+    // const time = new Date();
+    // console.log(
+    //     time.toLocaleString('en-US', { hour: 'numeric', hour12: true })
+    // );
+    // console.log(chats)
 
     return (
-        <div>
-            {/*{chats.chats.map(value => console.log(value))}*/}
+        <div className={'allChatsBlock'}>
+            {chats.chats.map(chat => <DescriptionChat
+                key={chat.chatId}
+                userName={chat.userName}
+                userImage={chat.userImage}
+                message={chat.message}
+                chat={chat}
+            />)}
         </div>
     );
 };

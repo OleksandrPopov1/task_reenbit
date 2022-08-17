@@ -1,0 +1,11 @@
+.allChatsBlock{
+    height: 65vh;
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.allChatsBlock::-webkit-scrollbar {
+    display: none;
+}

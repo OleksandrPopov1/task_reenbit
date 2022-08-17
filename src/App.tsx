@@ -1,10 +1,25 @@
 import {FC} from "react";
-import {Chats} from "./components/chats/Chats";
+
+import {Chat, Chats, HeaderAllChats, HeaderOneChat, SendMessage} from "./components";
+import './App.css';
 
 const App:FC = () => {
     return (
-        <div>
-          <Chats/>
+        <div className={'ownBlock'}>
+            <div className={'ownLeftPartBlock'}>
+                <HeaderAllChats/>
+                <div>
+                    <h2>Chats</h2>
+                    <Chats/>
+                </div>
+            </div>
+
+            <div className={'ownRightPartBlock'}>
+                <HeaderOneChat/>
+                <Chat/>
+                <SendMessage/>
+            </div>
+
         </div>
     );
 };
