@@ -15,24 +15,13 @@ const Chats: FC = () => {
         if (!localStorage.getItem('chats')) {
             localStorage.setItem('chats', JSON.stringify(staticChat));
         }
-        dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') || '{}')));
-
-
+        dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') ?? '{}')));
     }, [dispatch]);
-
-    // const time = new Date();
-    // console.log(
-    //     time.toLocaleString('en-US', { hour: 'numeric', hour12: true })
-    // );
-    // console.log(chats)
 
     return (
         <div className={'allChatsBlock'}>
             {chats.chats.map(chat => <DescriptionChat
                 key={chat.chatId}
-                userName={chat.userName}
-                userImage={chat.userImage}
-                message={chat.message}
                 chat={chat}
             />)}
         </div>

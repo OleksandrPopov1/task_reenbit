@@ -19,5 +19,6 @@
     padding: 0;
     width: 70vw;
     border-bottom: 2px solid grey;
+    overflow-y: initial;
     /*border-left: 1px solid grey;*/
 }

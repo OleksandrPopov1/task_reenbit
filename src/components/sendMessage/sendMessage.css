@@ -36,10 +36,16 @@
     transition: 300ms;
 }
 
+
+
 .sendMessageBlock > button>img{
     position: absolute;
     width: 1.5vw;
     top: 30%;
     background-color: white;
     border-radius: 0 20px 20px 0;
+}
+
+.sendMessageBlock > button>img:active{
+    transform: scale(1.2);
 }

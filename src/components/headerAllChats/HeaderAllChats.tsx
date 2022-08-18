@@ -7,16 +7,16 @@ import {chatAction} from "../../redux";
 
 const HeaderAllChats:FC = () => {
 
-    const [inputValue, setInputValue] = useState<string|''>('');
+    const [inputValue, setInputValue] = useState<string>('');
     const dispatch = useAppDispatch();
 
     const change = (e: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(e.target.value);
     };
 
-    const search = () => {
+    const search = ():void => {
         if (inputValue) {
-            dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') || '{}')));
+            dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') ?? '{}')));
             dispatch(chatAction.searchChatByName(inputValue));
             setInputValue('');
         }

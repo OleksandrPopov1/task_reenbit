@@ -2,15 +2,14 @@
     display: flex;
 }
 
-.messageBlock > div {
-    /*width: 80%;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
+.messageAndDateBlock{
+    max-width: 60%;
 }
 
 .messageBlock .messageValue{
-    padding: 10%;
+    padding: 2vh 1vw;
     border-radius: 25px;
+
 }
 
 .meMessage > div {
@@ -23,18 +22,14 @@
     background-color: #e1dede;
 }
 
+.meMessage .messageDate{
+    text-align: right;
+}
+
 .interlocutorMessage .messageValue {
     width: auto;
     background-color: #40454b;
     color: white;
-}
-
-/*.interlocutorMessage > div {*/
-/*    text-align: left;*/
-/*}*/
-
-.messageValue {
-
 }
 
 .messageDate{

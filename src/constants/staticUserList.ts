@@ -15,19 +15,19 @@ export const staticChat: IChats = {
                 {
                     messageId: uuidv4(),
                     value: 'Hello',
-                    date: '08/16/22, 4:00 AM',
+                    date: 'Thu Aug 18 2022 10:00:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Josefina'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'Hello!',
-                    date: '08/16/22, 4:05 AM',
+                    date: 'Thu Aug 18 2022 10:05:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'My name is Josefina',
-                    date: '08/16/22, 4:10 AM',
+                    date: 'Thu Aug 18 2022 10:10:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Josefina'
                 }
             ]
@@ -36,126 +36,216 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Alice Freeman',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1114/s1_josefina-monasterio-image.jpg',
+                userImage: 'https://zvezda.today/contents/models/19/s1_rin-alina-image.jpg',
                 statusOnline: true
             },
             message: [
                 {
                     messageId: uuidv4(),
                     value: 'Hello, how are you',
-                    date: '08/13/22, 5:00 AM',
+                    date: 'Thu Aug 18 2022 13:20:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Alice Freeman'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'Hi, good and you?',
-                    date: '08/16/22, 5:05 AM',
+                    date: 'Thu Aug 18 2022 13:25:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 }
             ]
         },
         {
             chatId: uuidv4(),
-            userName: 'Alina Popova',
+            userName: 'Manu Rios',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1114/s1_josefina-monasterio-image.jpg',
+                userImage: 'https://zvezda.today/contents/models/329/s1_rios-manu-image.jpg',
                 statusOnline: true
             },
             message: [
                 {
                     messageId: uuidv4(),
                     value: 'Hello, when you will return my money',
-                    date: '07/24/22, 4:15 PM',
-                    authorMessage: 'Alina Popova'
+                    date: 'Thu Aug 18 2022 15:40:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Manu Rios'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'Hello, sorry, now i cant return your money...',
-                    date: '07/24/22, 4:18 PM',
+                    date: 'Thu Aug 18 2022 15:42:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'Ok, and when?',
-                    date: '07/24/22, 4:19 PM',
-                    authorMessage: 'Alina Popova'
+                    date: 'Thu Aug 18 2022 15:43:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Manu Rios'
                 },
                 {
                     messageId: uuidv4(),
                     value: 'I try return your money next month',
-                    date: '07/24/22, 4:25 PM',
+                    date: 'Thu Aug 18 2022 15:45:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 }
             ]
         },
         {
             chatId: uuidv4(),
-            userName: 'Alina Popova',
+            userName: 'Oliver Moy',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1114/s1_josefina-monasterio-image.jpg',
+                userImage: 'https://zvezda.today/contents/models/1032/s1_moy-oliver-image.jpg',
                 statusOnline: true
             },
             message: [
                 {
                     messageId: uuidv4(),
-                    value: 'Hello, when you will return my money',
-                    date: '07/24/22, 4:15 PM',
-                    authorMessage: 'Alina Popova'
+                    value: 'Where are you?',
+                    date: 'Thu Aug 18 2022 17:30:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Oliver Moy'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'Hello, sorry, now i cant return your money...',
-                    date: '07/24/22, 4:18 PM',
+                    value: 'Sorry, I am sleep',
+                    date: 'Thu Aug 18 2022 17:31:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'Ok, and when?',
-                    date: '07/24/22, 4:19 PM',
-                    authorMessage: 'Alina Popova'
+                    value: 'Oh... Ok',
+                    date: 'Thu Aug 18 2022 17:32:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Oliver Moy'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'I try return your money next month',
-                    date: '07/24/22, 4:25 PM',
+                    value: 'Goodbye!',
+                    date: 'Thu Aug 18 2022 17:33:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 }
             ]
         },
         {
             chatId: uuidv4(),
-            userName: 'Alina Popova',
+            userName: 'Natalia Barulich',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1114/s1_josefina-monasterio-image.jpg',
+                userImage: 'https://zvezda.today/contents/models/900/s1_barulich-natalia-image.jpg',
                 statusOnline: true
             },
             message: [
                 {
                     messageId: uuidv4(),
-                    value: 'Hello, when you will return my money',
-                    date: '07/24/22, 4:15 PM',
-                    authorMessage: 'Alina Popova'
+                    value: 'Hello',
+                    date: 'Thu Aug 18 2022 11:30:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Natalia Barulich'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'Hello, sorry, now i cant return your money...',
-                    date: '07/24/22, 4:18 PM',
+                    value: 'Hello',
+                    date: 'Thu Aug 18 2022 11:33:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'Ok, and when?',
-                    date: '07/24/22, 4:19 PM',
-                    authorMessage: 'Alina Popova'
+                    value: 'Go to the Cafe?',
+                    date: 'Thu Aug 18 2022 11:34:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Natalia Barulich'
                 },
                 {
                     messageId: uuidv4(),
-                    value: 'I try return your money next month',
-                    date: '07/24/22, 4:25 PM',
+                    value: 'Ok',
+                    date: 'Thu Aug 18 2022 11:35:00 GMT+0300 (Eastern European Summer Time)',
                     authorMessage: 'Me'
                 }
             ]
-        }
+        },
+        {
+            chatId: uuidv4(),
+            userName: 'Steve Cook',
+            userImage: {
+                userImage: 'https://zvezda.today/contents/models/980/s1_cook-steve-image.jpg',
+                statusOnline: true
+            },
+            message: [
+                {
+                    messageId: uuidv4(),
+                    value: 'Hi, man! Go to the pab after work?',
+                    date: 'Thu Aug 18 2022 14:56:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Steve Cook'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'so sure, where are we going?',
+                    date: 'Thu Aug 18 2022 14:57:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Me'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'Belfast?',
+                    date: 'Thu Aug 18 2022 14:58:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Steve Cook'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'Ok, I will!',
+                    date: 'Thu Aug 18 2022 14:59:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Me'
+                }
+            ]
+        },
+        {
+            chatId: uuidv4(),
+            userName: 'Vyvan Le',
+            userImage: {
+                userImage: 'https://zvezda.today/contents/models/497/s1_le-vyvan-image.jpg',
+                statusOnline: true
+            },
+            message: [
+                {
+                    messageId: uuidv4(),
+                    value: 'Hello, do you repair phones?',
+                    date: 'Thu Aug 18 2022 12:14:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Vyvan Le'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'Hi, no',
+                    date: 'Thu Aug 18 2022 12:30:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Me'
+                }
+            ]
+        },
+        {
+            chatId: uuidv4(),
+            userName: 'Zach King',
+            userImage: {
+                userImage: 'https://zvezda.today/contents/models/510/s1_king-zach-image.jpg',
+                statusOnline: true
+            },
+            message: [
+                {
+                    messageId: uuidv4(),
+                    value: 'I should have all the reports tomorrow!',
+                    date: 'Thu Aug 18 2022 20:36:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Zach King'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'I won\'t make it until tomorrow, it\'s too late',
+                    date: 'Thu Aug 18 2022 20:47:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Me'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'Your problems!',
+                    date: 'Thu Aug 18 2022 20:48:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Zach King'
+                },
+                {
+                    messageId: uuidv4(),
+                    value: 'Ok...',
+                    date: 'Thu Aug 18 2022 20:50:00 GMT+0300 (Eastern European Summer Time)',
+                    authorMessage: 'Me'
+                }
+            ]
+        },
     ]
 }
 

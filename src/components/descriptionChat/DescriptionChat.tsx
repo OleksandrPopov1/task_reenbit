@@ -1,25 +1,32 @@
 import {FC} from "react";
 
-import {IUserImage} from "../../interfaces";
-import {IChat, IMessage} from "../../interfaces/chat.interface";
+import {IChat} from "../../interfaces/chat.interface";
 import {UserImage} from "../userImage/UserImage";
 import './descriptionChat.css';
 import {useAppDispatch} from "../../hooks";
 import {chatAction} from "../../redux";
 
 interface IProps {
-    userName: string;
-    userImage: IUserImage;
-    message: IMessage[];
     chat: IChat
 }
 
-const DescriptionChat: FC<IProps> = ({userImage, userName, message, chat}) => {
+const DescriptionChat: FC<IProps> = ({chat}) => {
 
+    const {userImage, userName, message} = chat;
     const dispatch = useAppDispatch();
 
-    const selectChat = () => {
-        dispatch(chatAction.setChat(chat))
+    const lastMessage: string = message[message.length - 1].value;
+    const smallMessage: string = lastMessage.length > 60 ? lastMessage.slice(0, 60) + '...' : lastMessage;
+
+    const lastMessageDate: string = message[message.length - 1].date;
+    const smallDate: string = new Date(lastMessageDate).toLocaleString('en-us', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric'
+    })
+
+    const selectChat = (): void => {
+        dispatch(chatAction.setChat(chat));
     };
 
     return (
@@ -27,11 +34,11 @@ const DescriptionChat: FC<IProps> = ({userImage, userName, message, chat}) => {
             <div><UserImage userImage={userImage.userImage} statusOnline={true}/>
                 <div>
                     <h3>{userName}</h3>
-                    <p>{message[message.length - 1].value}</p>
+                    <p>{smallMessage}</p>
                 </div>
             </div>
 
-            <p>{message[message.length - 1].date}</p>
+            <p>{smallDate}</p>
         </div>
     );
 };
