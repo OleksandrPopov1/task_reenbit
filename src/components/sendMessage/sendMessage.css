@@ -6,7 +6,7 @@
 .sendMessageBlock > input {
     width: 60vw;
     height: 8vh;
-    padding-left: 5%;
+    padding-left: 2%;
 
     border: 1px solid grey;
     border-right: none;
@@ -14,13 +14,15 @@
     outline-width: 0;
 }
 
+.sendMessageBlock > input::placeholder{
+    font-size: 20px;
+}
 
 .sendMessageBlock > button {
     position: absolute;
     width: 5vw;
     height: 8vh;
     padding: 0;
-
 
     border: 1px solid grey;
     border-radius: 0 20px 20px 0;

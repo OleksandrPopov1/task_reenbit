@@ -1,6 +1,6 @@
 .headerAllChatBlock {
     width: 30vw;
-    height: 20vh;
+    height: 24vh;
     padding: 5%;
 
     background-color: #f5f3f3;
@@ -14,6 +14,7 @@
     border-radius: 25px;
     border: 1px solid grey;
 
+    margin-top: 3vh;
     padding-left: 25px;
     background: white url("https://www.eiseverywhere.com/file_uploads/51017af85eee31deae64f4e112ac874c_GreyMagnifyGlass.jpg") no-repeat left;
     background-size: 20px;

@@ -16,7 +16,7 @@
 }
 
 .descriptionChatBlock h3 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     margin: 0;
     color: #484444;
@@ -24,12 +24,13 @@
 
 .descriptionChatBlock > div > div > p {
     margin: 0;
-    width: 16vw;
+    width: 15vw;
     color: grey;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .descriptionChatBlock > p {
+    margin-top: 0;
     color: #484444;
-    font-size: 10px;
+    font-size: 14px;
 }

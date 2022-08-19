@@ -1,10 +1,12 @@
 .headerOneChatBlock {
     display: flex;
-    padding: 2%;
+    padding: 2% 2% 7%;
     border-left: 1px solid grey;
 }
 
 .headerOneChatBlock > h2 {
-    margin: 0;
+    font-size: 30px;
+    margin: 1% 0;
     font-weight: 500;
 }
+

@@ -1,0 +1,501 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .headerAllChatBlock {
+        height: 22vh;
+    }
+
+    .checkMarkOnlineImage {
+        top: 45%;
+    }
+
+    .searchInput {
+        margin-top: 2vh;
+    }
+
+    .searchInput::placeholder {
+        font-size: 11px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 20px;
+    }
+
+    .allChatsBlock {
+        height: 63.5vh;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 14px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        font-size: 12px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 10px;
+    }
+
+    .headerOneChatBlock {
+        height: 70px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 20px;
+    }
+
+    .chatBlock {
+        height: 71vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .messageDate {
+        font-size: 11px;
+        margin: 8px 0;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 18px;
+    }
+
+    .sendMessageBlock > button > img {
+        width: 1.5vw;
+        top: 35%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .headerAllChatBlock {
+        height: 22vh;
+    }
+
+    .checkMarkOnlineImage {
+        top: 45%;
+    }
+
+    .searchInput {
+        margin-top: 1.5vh;
+    }
+
+    .searchInput::placeholder {
+        font-size: 8px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 14px;
+    }
+
+    .allChatsBlock {
+        height: 63.2vh;
+    }
+
+    .descriptionChatBlock {
+        padding: 3% 5%;
+    }
+
+    .descriptionChatBlock > div {
+        height: 40px;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 8px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        font-size: 8px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 7px;
+    }
+
+    .headerOneChatBlock {
+        height: 55px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 18px;
+    }
+
+    .chatBlock {
+        height: 70vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        padding-top: 2%;
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .messageDate {
+        font-size: 9px;
+        margin: 6px 0;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 14px;
+    }
+
+    .sendMessageBlock > button > img {
+        width: 1.5vw;
+        top: 35%;
+    }
+}
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+
+    .headerAllChatBlock {
+        width: 40vw;
+        height: 15vh;
+    }
+
+    .userImageBlock {
+        height: 30px;
+    }
+
+    .userInfoImage {
+        width: 7vw;
+    }
+
+    .checkMarkOnlineImage {
+        left: 23px;
+        top: 78%;
+    }
+
+    .searchInput {
+        margin-top: 1.5vh;
+        height: 4vh;
+        background-size: 10px;
+        padding: 0 0 3px 10px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 7px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 14px;
+    }
+
+    .allChatsBlock {
+        height: 73.4vh;
+    }
+
+    .descriptionChatBlock .userImageBlock {
+        width: 15px;
+    }
+
+    .descriptionChatBlock {
+        width: 40vw;
+        padding: 3% 5%;
+    }
+
+    .descriptionChatBlock > div {
+        height: 40px;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 10px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        width: 100px;
+        font-size: 8px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 7px;
+        left: 30%;
+    }
+
+    .headerOneChatBlock {
+        height: 45px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 14px;
+    }
+
+    .chatBlock {
+        height: 79.5vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        padding-top: 4%;
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .messageDate {
+        font-size: 7px;
+        margin: 6px 0;
+    }
+
+    .sendMessageBlock > input{
+        width: 90%;
+        height: 26px;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 10px;
+    }
+
+    .sendMessageBlock > button{
+        height: 26px;
+    }
+
+
+    .sendMessageBlock > button > img {
+        width: 2.5vw;
+        top: 25%;
+        right: 30%;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+
+    .headerAllChatBlock {
+        width: 40vw;
+        height: 15vh;
+    }
+
+    .userImageBlock {
+        height: 30px;
+    }
+
+    .userInfoImage {
+        width: 7vw;
+    }
+
+    .checkMarkOnlineImage {
+        left: 22px;
+        top: 68%;
+    }
+
+    .searchInput {
+        margin-top: 1.5vh;
+        height: 4vh;
+        background-size: 10px;
+        padding: 0 0 3px 10px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 7px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 14px;
+    }
+
+    .allChatsBlock {
+        height: 74.2vh;
+    }
+
+    .descriptionChatBlock .userImageBlock {
+        width: 12px;
+    }
+
+    .descriptionChatBlock {
+        width: 40vw;
+        padding: 3% 5%;
+    }
+
+    .descriptionChatBlock > div {
+        height: 40px;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 10px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        width: 90px;
+        font-size: 7px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 4px;
+        margin-left: 5px;
+    }
+
+    .headerOneChatBlock {
+        height: 45px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 15px;
+    }
+
+    .chatBlock {
+        height: 80vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        padding-top: 4%;
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .messageDate {
+        font-size: 6px;
+        margin: 6px 0;
+    }
+
+    .sendMessageBlock > input{
+        width: 90%;
+        height: 26px;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 10px;
+    }
+
+    .sendMessageBlock > button{
+        height: 26px;
+    }
+
+
+    .sendMessageBlock > button > img {
+        width: 2.5vw;
+        top: 25%;
+        right: 30%;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+
+    .headerAllChatBlock {
+        width: 40vw;
+        height: 15vh;
+    }
+
+    .userImageBlock {
+        height: 30px;
+    }
+
+    .userInfoImage {
+        width: 7vw;
+    }
+
+    .checkMarkOnlineImage {
+        left: 18px;
+        top: 58%;
+    }
+
+    .searchInput {
+        margin-top: 0;
+        height: 4vh;
+        background-size: 10px;
+        padding: 0 0 3px 10px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 7px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 12px;
+    }
+
+    .allChatsBlock {
+        height: 74.2vh;
+    }
+
+    .descriptionChatBlock .userImageBlock {
+        width: 8px;
+    }
+
+    .descriptionChatBlock {
+        width: 40vw;
+        padding: 3% 0 3% 5%;
+    }
+
+    .descriptionChatBlock > div {
+        height: 30px;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 8px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        width: 70px;
+        font-size: 6px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 4px;
+        margin-left: 5px;
+    }
+
+    /*////////////////////////////////////////////////////////////////////////////*/
+    .headerOneChatBlock {
+        height: 35px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 12px;
+    }
+
+    .chatBlock {
+        height: 83vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        padding-top: 4%;
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .messageDate {
+        font-size: 6px;
+        margin: 6px 0;
+    }
+
+    .sendMessageBlock > input{
+        width: 90%;
+        height: 26px;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 10px;
+    }
+
+    .sendMessageBlock > button{
+        height: 26px;
+    }
+
+    .sendMessageBlock > button > img {
+        width: 2.5vw;
+        top: 35%;
+        right: 30%;
+    }
+}

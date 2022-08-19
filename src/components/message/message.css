@@ -6,7 +6,8 @@
     max-width: 60%;
 }
 
-.messageBlock .messageValue {
+.messageValue {
+    margin-bottom: 0;
     padding: 2vh 1vw;
     border-radius: 25px;
 }
@@ -32,6 +33,11 @@
 }
 
 .messageDate {
-    font-size: 10px;
+    font-size: 12px;
     color: grey;
+    padding-left: 14px;
+}
+
+.messageBlock > .userImageBlock{
+    padding-top: 1.5%;
 }

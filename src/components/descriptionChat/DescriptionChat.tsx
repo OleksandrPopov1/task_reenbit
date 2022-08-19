@@ -16,7 +16,7 @@ const DescriptionChat: FC<IProps> = ({chat}) => {
     const dispatch = useAppDispatch();
 
     const lastMessage: string = message[message.length - 1].value;
-    const smallMessage: string = lastMessage.length > 60 ? lastMessage.slice(0, 60) + '...' : lastMessage;
+    const smallMessage: string = lastMessage.length > 45 ? lastMessage.slice(0, 45) + '...' : lastMessage;
 
     const lastMessageDate: string = message[message.length - 1].date;
     const smallDate: string = new Date(lastMessageDate).toLocaleString('en-us', {

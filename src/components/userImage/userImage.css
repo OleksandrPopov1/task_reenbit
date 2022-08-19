@@ -6,12 +6,12 @@
 
 .checkMarkOnlineImage {
     position: absolute;
-    width: 1vw;
-    top: 45%;
-    left: 2vw;
+    width: 1.4vw;
+    top: 55%;
+    left: 3vw;
 }
 
 .userInfoImage {
     border-radius: 50px;
-    width: 3vw;
+    width: 4vw;
 }

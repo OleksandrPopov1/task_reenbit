@@ -1,7 +1,7 @@
 .ownBlock {
     display: flex;
     background-color: #f5f3f3;
-    padding-bottom: 1.5%;
+    padding-bottom: 1.9%;
 }
 
 .ownLeftPartBlock {
@@ -12,7 +12,7 @@
 .ownLeftPartBlock h2 {
     color: cornflowerblue;
     font-weight: 400;
-    margin-left: 5%;
+    margin: 5% 5% 10%;
 }
 
 .ownRightPartBlock {
