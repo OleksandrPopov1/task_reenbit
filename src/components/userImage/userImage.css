@@ -1,17 +1,17 @@
-.userImageBlock{
+.userImageBlock {
     position: relative;
     height: 10vh;
     margin-right: 20px;
 }
 
-.checkMarkOnlineImage{
+.checkMarkOnlineImage {
     position: absolute;
     width: 1vw;
     top: 45%;
     left: 2vw;
 }
 
-.userInfoImage{
+.userInfoImage {
     border-radius: 50px;
     width: 3vw;
 }

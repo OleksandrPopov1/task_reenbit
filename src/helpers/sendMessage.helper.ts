@@ -1,14 +1,13 @@
 import {v4 as uuidv4} from 'uuid';
 
-import {IChat, IChats, IMessage} from "../interfaces/chat.interface";
+import {IChat, IChats, IMessage} from "../interfaces";
 import {AppDispatch, chatAction} from "../redux";
 import {Dispatch, SetStateAction} from "react";
 
 
 const addMessage = (message: IMessage, chat: IChat, dispatch: AppDispatch): void => {
-    const newChats: IChats = JSON.parse(localStorage.getItem('chats') ?? '{}');
 
-    // console.log((new Date(newChats.chats[0].message[0].date)));
+    const newChats: IChats = JSON.parse(localStorage.getItem('chats') ?? '{}');
 
     const idChat: string = chat.chatId;
     const index: number = newChats.chats.findIndex(chat => chat.chatId === idChat);
@@ -20,7 +19,12 @@ const addMessage = (message: IMessage, chat: IChat, dispatch: AppDispatch): void
 }
 
 
-const send = (inputValue: string, setInputValue: Dispatch<SetStateAction<string>>, dispatch: AppDispatch, chat: IChat, newResponse: string): void => {
+const send = (inputValue: string,
+              setInputValue: Dispatch<SetStateAction<string>>,
+              dispatch: AppDispatch,
+              chat: IChat,
+              newResponse: string): void => {
+
     if (inputValue) {
         const newMessage: IMessage = {
             messageId: uuidv4(),
@@ -41,7 +45,6 @@ const send = (inputValue: string, setInputValue: Dispatch<SetStateAction<string>
             };
 
             addMessage(response, chat, dispatch);
-
         }, 2000);
 
         setInputValue('');

@@ -1,10 +1,10 @@
 import {FC} from "react";
 
-import {IChat} from "../../interfaces/chat.interface";
+import {IChat} from "../../interfaces";
 import {UserImage} from "../userImage/UserImage";
-import './descriptionChat.css';
 import {useAppDispatch} from "../../hooks";
 import {chatAction} from "../../redux";
+import './descriptionChat.css';
 
 interface IProps {
     chat: IChat

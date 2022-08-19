@@ -1,6 +1,6 @@
 import axios, {AxiosResponse} from "axios";
 
-import { baseURL } from "../constants";
+import {baseURL} from "../constants";
 
 export type AxiosRes<T> = Promise<AxiosResponse<T>>;
 

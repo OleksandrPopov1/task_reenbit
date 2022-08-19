@@ -1,9 +1,9 @@
 import React, {FC, useEffect, useRef} from "react";
 
-import './chat.css';
 import {useAppDispatch, useAppSelector} from "../../hooks";
 import {Message} from "../message/Message";
 import {chatAction} from "../../redux";
+import './chat.css';
 
 const Chat: FC = () => {
 
@@ -31,10 +31,10 @@ const Chat: FC = () => {
         <div className={'chatBlock'}>
             {chat.message.map(message => <Message
                 key={message.messageId}
+                message={message}
                 userImage={chat.userImage}
-                message={message.value}
-                author={message.authorMessage}
-                date={message.date}/>)}
+            />)}
+
             <div ref={messagesEndRef}/>
         </div>
     );

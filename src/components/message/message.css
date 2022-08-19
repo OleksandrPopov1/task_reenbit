@@ -2,14 +2,13 @@
     display: flex;
 }
 
-.messageAndDateBlock{
+.messageAndDateBlock {
     max-width: 60%;
 }
 
-.messageBlock .messageValue{
+.messageBlock .messageValue {
     padding: 2vh 1vw;
     border-radius: 25px;
-
 }
 
 .meMessage > div {
@@ -22,7 +21,7 @@
     background-color: #e1dede;
 }
 
-.meMessage .messageDate{
+.meMessage .messageDate {
     text-align: right;
 }
 
@@ -32,7 +31,7 @@
     color: white;
 }
 
-.messageDate{
+.messageDate {
     font-size: 10px;
     color: grey;
 }

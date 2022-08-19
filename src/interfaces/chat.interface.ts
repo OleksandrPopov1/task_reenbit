@@ -1,19 +1,19 @@
 import {IUserImage} from "./userImage.interface";
 
-export interface IMessage{
+export interface IMessage {
     messageId: string;
     value: string;
     date: string;
     authorMessage: string
 }
 
-export interface IChat{
+export interface IChat {
     chatId: string;
     userName: string;
     userImage: IUserImage;
     message: IMessage[];
 }
 
-export interface IChats{
+export interface IChats {
     chats: IChat[];
 }

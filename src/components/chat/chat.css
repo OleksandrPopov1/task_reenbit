@@ -1,4 +1,4 @@
-.chatBlock{
+.chatBlock {
     height: 64.4vh;
     background-color: #f8f8f8;
 
@@ -6,8 +6,7 @@
 
     border: 1px solid grey;
     border-right: none;
-    /*max-height: 64.4vh;*/
-    overflow-y: auto;
+    overflow-y: scroll;
 
     -ms-overflow-style: none;
     scrollbar-width: none;

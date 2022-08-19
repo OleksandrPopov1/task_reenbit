@@ -3,7 +3,7 @@ import {FC} from "react";
 import {Chat, Chats, HeaderAllChats, HeaderOneChat, SendMessage} from "./components";
 import './App.css';
 
-const App:FC = () => {
+const App: FC = () => {
     return (
         <div className={'ownBlock'}>
             <div className={'ownLeftPartBlock'}>
@@ -19,7 +19,6 @@ const App:FC = () => {
                 <Chat/>
                 <SendMessage/>
             </div>
-
         </div>
     );
 };

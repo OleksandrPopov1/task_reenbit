@@ -1,10 +1,10 @@
 import {FC} from "react";
 
-import './headerOneChat.css';
 import {UserImage} from "../userImage/UserImage";
 import {useAppSelector} from "../../hooks";
+import './headerOneChat.css';
 
-const HeaderOneChat:FC = () => {
+const HeaderOneChat: FC = () => {
 
     const {chat} = useAppSelector(state => state.chat);
 

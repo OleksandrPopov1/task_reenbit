@@ -1,11 +1,11 @@
 import React, {FC, useState} from "react";
 
 import {UserImage} from "../userImage/UserImage";
-import './headerAllChats.css';
 import {useAppDispatch} from "../../hooks";
 import {chatAction} from "../../redux";
+import './headerAllChats.css';
 
-const HeaderAllChats:FC = () => {
+const HeaderAllChats: FC = () => {
 
     const [inputValue, setInputValue] = useState<string>('');
     const dispatch = useAppDispatch();
@@ -14,7 +14,7 @@ const HeaderAllChats:FC = () => {
         setInputValue(e.target.value);
     };
 
-    const search = ():void => {
+    const search = (): void => {
         if (inputValue) {
             dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') ?? '{}')));
             dispatch(chatAction.searchChatByName(inputValue));

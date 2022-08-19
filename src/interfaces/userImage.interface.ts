@@ -1,4 +1,4 @@
-export interface IUserImage{
+export interface IUserImage {
     userImage: string;
     statusOnline: boolean;
 }

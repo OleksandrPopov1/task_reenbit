@@ -1,9 +1,9 @@
-export interface IJoke{
+export interface IJoke {
     categories: [];
     created_at: string;
     icon_url: string;
     id: string;
     updated_at: string;
-    url:string;
+    url: string;
     value: string;
 }

@@ -1,28 +1,24 @@
-.sendMessageBlock{
+.sendMessageBlock {
     padding: 3%;
     border-left: 1px solid grey;
 }
 
-.sendMessageBlock>input{
+.sendMessageBlock > input {
     width: 60vw;
     height: 8vh;
-
     padding-left: 5%;
 
     border: 1px solid grey;
     border-right: none;
-    border-radius: 20px 0  0 20px;
+    border-radius: 20px 0 0 20px;
     outline-width: 0;
 }
 
 
 .sendMessageBlock > button {
     position: absolute;
-    /*top: 0;*/
-
     width: 5vw;
     height: 8vh;
-
     padding: 0;
 
 
@@ -36,9 +32,7 @@
     transition: 300ms;
 }
 
-
-
-.sendMessageBlock > button>img{
+.sendMessageBlock > button > img {
     position: absolute;
     width: 1.5vw;
     top: 30%;
@@ -46,6 +40,6 @@
     border-radius: 0 20px 20px 0;
 }
 
-.sendMessageBlock > button>img:active{
+.sendMessageBlock > button > img:active {
     transform: scale(1.2);
 }

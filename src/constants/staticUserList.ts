@@ -1,6 +1,6 @@
-import { v4 as uuidv4 } from 'uuid';
+import {v4 as uuidv4} from 'uuid';
 
-import {IChats} from "../interfaces/chat.interface";
+import {IChats} from "../interfaces";
 
 export const staticChat: IChats = {
     chats: [

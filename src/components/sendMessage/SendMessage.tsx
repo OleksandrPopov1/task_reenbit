@@ -1,8 +1,8 @@
 import React, {FC, useState} from "react";
 
-import './sendMessage.css';
-import { send} from "../../helpers";
+import {send} from "../../helpers";
 import {useAppDispatch, useAppSelector} from "../../hooks";
+import './sendMessage.css';
 
 const SendMessage: FC = () => {
 
@@ -16,7 +16,7 @@ const SendMessage: FC = () => {
         setInputValue(e.target.value);
     };
 
-    const buttonSend = ():void => {
+    const buttonSend = (): void => {
         send(inputValue, setInputValue, dispatch, chat, newResponse);
     }
 

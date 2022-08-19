@@ -5,7 +5,7 @@ export const generateTimeMessage = (messageDate: string): string => {
     const hour: string = timeMessage.getHours() > 12 ? 'PM' + (timeMessage.getHours() - 12) : 'AM' + timeMessage.getHours();
 
     const minute: string = timeMessage.getMinutes().toString().length < 2 ?
-        '0' + timeMessage.getMinutes()  : timeMessage.getMinutes().toString();
+        '0' + timeMessage.getMinutes() : timeMessage.getMinutes().toString();
 
     const time: string = hour.slice(2, 4) + ':' + minute + ' ' + hour.slice(0, 2)
     return date + ', ' + time;
