@@ -9,3 +9,5 @@ export * from './chat/Chat';
 
 export * from './sendMessage/SendMessage';
 export * from './message/Message';
+
+export * from './googleLogButton/GoogleLogButton';

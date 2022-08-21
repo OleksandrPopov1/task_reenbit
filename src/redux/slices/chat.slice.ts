@@ -1,29 +1,22 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import {AxiosError} from "axios";
 
-import {IChat, IChats, IJoke} from "../../interfaces";
+import {IChat, IChats, IJoke, IProfileObj} from "../../interfaces";
 import {jokeService} from "../../services";
+import {emptyChat, emptyGoogleUser} from "../../helpers";
 
 interface IState {
     chats: IChats;
     chat: IChat;
     newResponse: string;
-    // errors: string;
+    googleUser: IProfileObj;
 }
 
 const initialState: IState = {
     chats: {chats: []},
-    chat: {
-        chatId: '',
-        message: [],
-        userImage: {
-            statusOnline: false,
-            userImage: ''
-        },
-        userName: 'User Name'
-    },
-    newResponse: ''
-    // errors: ''
+    newResponse: '',
+    chat: emptyChat,
+    googleUser: emptyGoogleUser
 };
 
 const getJoke = createAsyncThunk<IJoke, void>(
@@ -46,7 +39,8 @@ const chatSlice = createSlice({
         setChats: (state, action) => {
             state.chats = action.payload;
             state.chats.chats.sort((a, b) => {
-                return (new Date(b.message[b.message.length - 1].date)).getTime() - (new Date(a.message[a.message.length - 1].date)).getTime();
+                return (new Date(b.message[b.message.length - 1].date)).getTime()
+                    - (new Date(a.message[a.message.length - 1].date)).getTime();
             })
         },
         searchChatByName: (state, action) => {
@@ -60,24 +54,35 @@ const chatSlice = createSlice({
         addMessageToTheChat: (state, action) => {
             state.chat.message.push(action.payload);
         },
+        logGoogleUser: (state, action) => {
+            console.log(action.payload)
+            state.googleUser = action.payload;
+        }
     },
     extraReducers: builder =>
         builder
             .addCase(getJoke.fulfilled, (state, action) => {
                 state.newResponse = action.payload.value;
             })
-    // .addCase(getJoke.rejected, (state, action) => {
-    //     state.errors = action.payload;
-    // })
 });
 
-const {reducer: chatReducer, actions: {setChats, searchChatByName, setChat, addMessageToTheChat}} = chatSlice;
+const {
+    reducer: chatReducer,
+    actions: {
+        setChats,
+        searchChatByName,
+        setChat,
+        addMessageToTheChat,
+        logGoogleUser
+    }
+} = chatSlice;
 
 const chatAction = {
     setChats,
     searchChatByName,
     setChat,
     addMessageToTheChat,
+    logGoogleUser,
     getJoke
 };
 

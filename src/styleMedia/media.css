@@ -1,7 +1,101 @@
+@media screen and (min-width: 1440px) {
+
+    .headerAllChatBlock {
+        height: 170px;
+    }
+
+    .userImageBlock {
+        height: 80px;
+    }
+
+    .userInfoImage {
+        width: 4.5vw;
+    }
+
+    .checkMarkOnlineImage {
+        top: 58%;
+        left: 50px;
+    }
+
+    .searchInput {
+        margin-top: 2vh;
+        background-size: 30px;
+        padding-left: 35px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 14px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 26px;
+    }
+
+    .allChatsBlock {
+        height: 57.6vh;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 22px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        font-size: 18px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 15px;
+    }
+
+    .headerOneChatBlock {
+        height: 100px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 30px;
+    }
+
+    .chatBlock {
+        height: 65vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+
+    .messageDate {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+
+    .sendMessageBlock > input {
+        font-size: 24px;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 24px;
+    }
+
+    .sendMessageBlock > button > img {
+        width: 2vw;
+        top: 27%;
+    }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
 
     .headerAllChatBlock {
-        height: 22vh;
+        height: 23vh;
+    }
+
+    .headerAllChatBlock h3{
+        font-size: 16px;
     }
 
     .checkMarkOnlineImage {
@@ -21,7 +115,7 @@
     }
 
     .allChatsBlock {
-        height: 63.5vh;
+        height: 60vh;
     }
 
     .descriptionChatBlock h3 {
@@ -45,7 +139,7 @@
     }
 
     .chatBlock {
-        height: 71vh;
+        height: 69vh;
     }
 
     .messageBlock > .userImageBlock {
@@ -79,6 +173,10 @@
         height: 22vh;
     }
 
+    .headerAllChatBlock h3{
+        font-size: 13px;
+    }
+
     .checkMarkOnlineImage {
         top: 45%;
     }
@@ -96,7 +194,7 @@
     }
 
     .allChatsBlock {
-        height: 63.2vh;
+        height: 61.5vh;
     }
 
     .descriptionChatBlock {
@@ -127,8 +225,12 @@
         font-size: 18px;
     }
 
+    .loginButton button {
+        height: 42px;
+    }
+
     .chatBlock {
-        height: 70vh;
+        height: 68.5vh;
     }
 
     .messageBlock > .userImageBlock {
@@ -164,6 +266,10 @@
         height: 15vh;
     }
 
+    .headerAllChatBlock h3{
+        font-size: 8px;
+    }
+
     .userImageBlock {
         height: 30px;
     }
@@ -193,7 +299,8 @@
     }
 
     .allChatsBlock {
-        height: 73.4vh;
+        width: 40vw;
+        height: 70.5vh;
     }
 
     .descriptionChatBlock .userImageBlock {
@@ -231,8 +338,16 @@
         font-size: 14px;
     }
 
+    .loginButton button {
+        height: 25px;
+    }
+
+    .loginButton > button > div svg {
+        display: none;
+    }
+
     .chatBlock {
-        height: 79.5vh;
+        height: 76.5vh;
     }
 
     .messageBlock > .userImageBlock {
@@ -278,6 +393,10 @@
         height: 15vh;
     }
 
+    .headerAllChatBlock h3{
+        font-size: 8px;
+    }
+
     .userImageBlock {
         height: 30px;
     }
@@ -307,7 +426,8 @@
     }
 
     .allChatsBlock {
-        height: 74.2vh;
+        width: 40vw;
+        height: 71vh;
     }
 
     .descriptionChatBlock .userImageBlock {
@@ -345,8 +465,16 @@
         font-size: 15px;
     }
 
+    .loginButton button {
+        height: 25px;
+    }
+
+    .loginButton > button > div svg {
+        display: none;
+    }
+
     .chatBlock {
-        height: 80vh;
+        height: 77vh;
     }
 
     .messageBlock > .userImageBlock {
@@ -393,6 +521,10 @@
         height: 15vh;
     }
 
+    .headerAllChatBlock h3{
+        font-size: 8px;
+    }
+
     .userImageBlock {
         height: 30px;
     }
@@ -422,7 +554,8 @@
     }
 
     .allChatsBlock {
-        height: 74.2vh;
+        width: 40vw;
+        height: 72.3vh;
     }
 
     .descriptionChatBlock .userImageBlock {
@@ -452,7 +585,6 @@
         margin-left: 5px;
     }
 
-    /*////////////////////////////////////////////////////////////////////////////*/
     .headerOneChatBlock {
         height: 35px;
     }
@@ -461,8 +593,16 @@
         font-size: 12px;
     }
 
+    .loginButton button {
+        height: 25px;
+    }
+
+    .loginButton > button > div svg {
+        display: none;
+    }
+
     .chatBlock {
-        height: 83vh;
+        height: 79.5vh;
     }
 
     .messageBlock > .userImageBlock {

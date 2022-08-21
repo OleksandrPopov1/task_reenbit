@@ -7,7 +7,7 @@ const rootReducer = combineReducers({
 });
 
 const setupStore = () => configureStore({
-    reducer: rootReducer
+    reducer: rootReducer,
 });
 
 type RootState = ReturnType<typeof rootReducer>;

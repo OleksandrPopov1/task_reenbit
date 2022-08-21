@@ -10,3 +10,8 @@
     font-weight: 500;
 }
 
+.loginButton button {
+    position: absolute;
+    right: 1%;
+}
+

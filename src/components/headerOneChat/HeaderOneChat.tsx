@@ -1,8 +1,9 @@
-import {FC} from "react";
+import React, {FC} from "react";
 
 import {UserImage} from "../userImage/UserImage";
 import {useAppSelector} from "../../hooks";
 import './headerOneChat.css';
+import {GoogleLogButton} from "../googleLogButton/GoogleLogButton";
 
 const HeaderOneChat: FC = () => {
 
@@ -12,6 +13,7 @@ const HeaderOneChat: FC = () => {
         <div className={'headerOneChatBlock'}>
             <UserImage userImage={chat.userImage.userImage} statusOnline={true}/>
             <h2>{chat.userName}</h2>
+            {<GoogleLogButton/>}
         </div>
     );
 };

@@ -1,13 +1,16 @@
 import React, {FC, useState} from "react";
 
 import {UserImage} from "../userImage/UserImage";
-import {useAppDispatch} from "../../hooks";
+import {useAppDispatch, useAppSelector} from "../../hooks";
 import {chatAction} from "../../redux";
 import './headerAllChats.css';
 
+
 const HeaderAllChats: FC = () => {
 
+    const {googleUser} = useAppSelector(state => state.chat);
     const [inputValue, setInputValue] = useState<string>('');
+
     const dispatch = useAppDispatch();
 
     const change = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -30,8 +33,10 @@ const HeaderAllChats: FC = () => {
 
     return (
         <div className={'headerAllChatBlock'}>
-            <UserImage userImage={''} statusOnline={true}/>
-
+            <div>
+                <UserImage userImage={googleUser.imageUrl} statusOnline={true}/>
+                <h3>{googleUser.name}</h3>
+            </div>
             <input
                 className={'searchInput'}
                 type="text"
@@ -40,6 +45,7 @@ const HeaderAllChats: FC = () => {
                 onChange={change}
                 placeholder={'Search or start new chat'}
             />
+
         </div>
     );
 };

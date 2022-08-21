@@ -8,7 +8,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Josefina',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1114/s1_josefina-monasterio-image.jpg',
+                userImage: require('../images/Josefina.jpg'),
                 statusOnline: true
             },
             message: [
@@ -36,7 +36,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Alice Freeman',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/19/s1_rin-alina-image.jpg',
+                userImage: require('../images/AliceFreeman.jpg'),
                 statusOnline: true
             },
             message: [
@@ -58,7 +58,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Manu Rios',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/329/s1_rios-manu-image.jpg',
+                userImage: require('../images/ManuRios.jpg'),
                 statusOnline: true
             },
             message: [
@@ -92,7 +92,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Oliver Moy',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/1032/s1_moy-oliver-image.jpg',
+                userImage: require('../images/OliverMoy.jpg'),
                 statusOnline: true
             },
             message: [
@@ -126,7 +126,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Natalia Barulich',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/900/s1_barulich-natalia-image.jpg',
+                userImage: require('../images/NataliaBarulich.jpg'),
                 statusOnline: true
             },
             message: [
@@ -160,7 +160,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Steve Cook',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/980/s1_cook-steve-image.jpg',
+                userImage: require('../images/SteveCook.jpg'),
                 statusOnline: true
             },
             message: [
@@ -194,7 +194,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Vyvan Le',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/497/s1_le-vyvan-image.jpg',
+                userImage: require('../images/VyvanLe.jpg'),
                 statusOnline: true
             },
             message: [
@@ -216,7 +216,7 @@ export const staticChat: IChats = {
             chatId: uuidv4(),
             userName: 'Zach King',
             userImage: {
-                userImage: 'https://zvezda.today/contents/models/510/s1_king-zach-image.jpg',
+                userImage: require('../images/ZachKing.jpg'),
                 statusOnline: true
             },
             message: [

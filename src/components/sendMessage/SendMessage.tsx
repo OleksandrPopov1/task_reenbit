@@ -36,7 +36,7 @@ const SendMessage: FC = () => {
                 onChange={change}
             />
             <button onClick={buttonSend}>
-                <img src="https://cdn.icon-icons.com/icons2/1509/PNG/512/documentsend_104490.png" alt=""/>
+                <img src={require('../../images/SendImage.png')} alt=""/>
             </button>
         </div>
     );

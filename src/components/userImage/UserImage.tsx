@@ -8,13 +8,13 @@ const UserImage: FC<IUserImage> = ({userImage, statusOnline}) => {
         <div className={'userImageBlock'}>
             <img
                 className={'userInfoImage'}
-                src={userImage || "https://cdn-icons-png.flaticon.com/512/149/149071.png"}
+                src={userImage || require('../../images/UndefinedUser.png')}
                 alt=""
             />
 
             {statusOnline && <img
                 className={'checkMarkOnlineImage'}
-                src="https://free-png.ru/wp-content/uploads/2021/06/free-png.ru-39-340x340.png"
+                src={require('../../images/StatusOnline.png')}
                 alt=""
             />}
         </div>

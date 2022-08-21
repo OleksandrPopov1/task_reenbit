@@ -45,7 +45,7 @@ const send = (inputValue: string,
             };
 
             addMessage(response, chat, dispatch);
-        }, 2000);
+        }, 10000);
 
         setInputValue('');
     }
