@@ -15,21 +15,11 @@ const HeaderAllChats: FC = () => {
 
     const change = (e: React.ChangeEvent<HTMLInputElement>) => {
         setInputValue(e.target.value);
-    };
-
-    const search = (): void => {
-        if (inputValue) {
+        if (e.target.value === '') {
             dispatch(chatAction.setChats(JSON.parse(localStorage.getItem('chats') ?? '{}')));
-            dispatch(chatAction.searchChatByName(inputValue));
-            setInputValue('');
         }
+        dispatch(chatAction.searchChatByName(e.target.value));
     };
-
-    const keyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.code === 'Enter') {
-            search();
-        }
-    }
 
     return (
         <div className={'headerAllChatBlock'}>
@@ -40,7 +30,6 @@ const HeaderAllChats: FC = () => {
             <input
                 className={'searchInput'}
                 type="text"
-                onKeyPress={keyPress}
                 value={inputValue}
                 onChange={change}
                 placeholder={'Search or start new chat'}

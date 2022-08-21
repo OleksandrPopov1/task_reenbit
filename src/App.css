@@ -6,7 +6,7 @@
 }
 
 .ownLeftPartBlock {
-    height: 95vh;
+    height: 94.5vh;
     background-color: white;
 }
 
@@ -19,6 +19,6 @@
 .ownRightPartBlock {
     padding: 0;
     width: 70vw;
-    height: 95vh;
+    height: 94.5vh;
     overflow-y: initial;
 }

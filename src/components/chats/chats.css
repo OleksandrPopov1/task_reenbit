@@ -1,10 +1,7 @@
-.allChatsBlock{
-    /*height: 59vh;*/
+.allChatsBlock {
     width: 30vw;
     display: flex;
-    /*flex-direction: column;*/
     flex-wrap: wrap;
-    /*overflow-block: scroll;*/
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;

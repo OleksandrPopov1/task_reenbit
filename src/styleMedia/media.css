@@ -1,4 +1,108 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2560px) {
+
+    .headerAllChatBlock {
+        height: 340px;
+    }
+
+    .headerAllChatBlock h3 {
+        font-size: 36px;
+    }
+
+    .userImageBlock {
+        height: 140px;
+    }
+
+    .userInfoImage {
+        border-radius: 100px;
+        width: 4.5vw;
+    }
+
+    .checkMarkOnlineImage {
+        top: 58%;
+        left: 90px;
+    }
+
+    .searchInput {
+        margin-top: 2vh;
+        background-size: 60px;
+        padding-left: 65px;
+        padding-top: 15px;
+        border-radius: 100px;
+    }
+
+    .searchInput::placeholder {
+        font-size: 30px;
+    }
+
+    .ownLeftPartBlock h2 {
+        font-size: 46px;
+    }
+
+    .allChatsBlock {
+        height: 63vh;
+    }
+
+    .descriptionChatBlock h3 {
+        font-size: 42px;
+    }
+
+    .descriptionChatBlock > div > div > p {
+        font-size: 32px;
+    }
+
+    .descriptionChatBlock > p {
+        font-size: 28px;
+    }
+
+    .headerOneChatBlock {
+        height: 200px;
+    }
+
+    .headerOneChatBlock > h2 {
+        font-size: 50px;
+    }
+
+    .chatBlock {
+        height: 68.5vh;
+    }
+
+    .messageBlock > .userImageBlock {
+        margin-right: 2%;
+    }
+
+    .messageValue {
+        font-size: 45px;
+        padding: 20px 30px;
+        border-radius: 100px;
+    }
+
+    .messageDate {
+        font-size: 30px;
+        margin: 8px 0;
+    }
+
+
+    .sendMessageBlock > input {
+        border-radius: 50px 0 0 50px;
+        font-size: 44px;
+    }
+
+    .sendMessageBlock > input::placeholder {
+        font-size: 44px;
+    }
+
+    .sendMessageBlock > button {
+        border-radius: 0 50px 50px 0;
+    }
+
+    .sendMessageBlock > button > img {
+        width: 2vw;
+        top: 27%;
+        border-radius: 0 50px 50px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
 
     .headerAllChatBlock {
         height: 170px;
@@ -94,7 +198,7 @@
         height: 23vh;
     }
 
-    .headerAllChatBlock h3{
+    .headerAllChatBlock h3 {
         font-size: 16px;
     }
 
@@ -173,7 +277,7 @@
         height: 22vh;
     }
 
-    .headerAllChatBlock h3{
+    .headerAllChatBlock h3 {
         font-size: 13px;
     }
 
@@ -266,7 +370,7 @@
         height: 15vh;
     }
 
-    .headerAllChatBlock h3{
+    .headerAllChatBlock h3 {
         font-size: 8px;
     }
 
@@ -393,7 +497,7 @@
         height: 15vh;
     }
 
-    .headerAllChatBlock h3{
+    .headerAllChatBlock h3 {
         font-size: 8px;
     }
 
@@ -521,7 +625,7 @@
         height: 15vh;
     }
 
-    .headerAllChatBlock h3{
+    .headerAllChatBlock h3 {
         font-size: 8px;
     }
 
